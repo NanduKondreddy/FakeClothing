@@ -1,0 +1,10 @@
+images/adidas_hoodie.jpg
+images/burberry_coat.jpg
+images/designer_dress.jpg
+images/gucci_t-shirt.jpg
+images/h&m_sweater.jpg
+images/levi's_jeans.jpg
+images/nike_t-shirt.jpg
+images/puma_jacket.jpg
+images/versace_pants.jpg
+images/zara_shirt.jpg
