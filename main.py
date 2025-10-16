@@ -134,7 +134,7 @@ print("\nClassification Report:\n", classification_report(y_test, y_pred, zero_d
 # ===============================
 # 10. Sample Predictions
 # ===============================
-print("\n🔍 Predictions on sample products:")
+print("\n Predictions on sample products:")
 sample_rows = df.iloc[:5][numeric_features + categorical_features].copy()
 sample_rows[categorical_features] = target_encoder.transform(sample_rows[categorical_features])
 
@@ -149,7 +149,7 @@ for idx, (pred, proba) in enumerate(zip(sample_preds, sample_probas)):
 # 11. Save Model
 # ===============================
 joblib.dump(model, 'fake_clothing_model.pkl')
-print("\n💾 Model saved as 'fake_clothing_model.pkl'")
+print("\n Model saved as 'fake_clothing_model.pkl'")
 
 # ===============================
 # 12. Feature Importance
